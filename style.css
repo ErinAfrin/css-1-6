@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Header*/
+body{
+    background-color: #ecf0f3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+header{
+    background-color: #ecf0f3;
+}
+.logo{
+    float: left;
+    width: 29%;
+    padding: 25px 0;
+}
+.meanu-area{
+    float: right;
+    width: 71%;
+    padding: 40px 0;
+}
+.meanu-area ul li{
+    display: inline-block;
+    padding-left: 23px;
+    font-weight: 600;
+} 
+.meanu-area ul{
+    text-transform: uppercase;
+}
+.meanu-area ul li a{
+    text-decoration: none;
+    color: #000000;
+    transition: all 2s linear;
+}
+.meanu-area a:hover{
+    color: #5a696b;
+}
+.meanu-area ul li a.active{
+    color: #ff0174;
+}
+.meanu-area a.active:hover{
+    color: #5a696b;
+}
+.meanu-area ul li.last{
+    box-shadow: 1px 5px 10px #c6d6f0;
+    padding: 15px;
+    margin: 0 0 0 15px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    transition: all 1s linear;
+}
+.meanu-area ul li.last a{
+    color: #ff0174;
+}
+.meanu-area li.last:hover{
+    background: #e60b2f;
+    transform: translate(0, -3px);
+    transition: all 1s linear;
+    
+}
+.meanu-area ul li.last a:hover{
+    color: #fff;
+}
+.text-area{
+    float: left;
+    width: 60%;
+    margin-top: 60px;
+    margin-right: 60px;
+}
+.text-area h5{
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #5a696b;
+    font-weight: 450;
+}
+.text-area h1{
+    font-size: 75px;
+    color: #1e2125;
+    margin-bottom: 20px;
+}
+span{
+    color: #ff014f;
+}
+.text-area p{
+    color: #878a8b;
+    font-size: 18px;
+    margin-bottom: 90px;
+    letter-spacing: 1px;
+}
+.icon-area{
+    float: left;
+    width: 50%;
+    color: #5b5e62;
+    letter-spacing: 2px;
+}
+.icon-area h5{
+    margin-bottom: 15px;
+}
+.icon-2 h5{
+    margin-bottom: 15px;
+}
+.icon-2{
+    float: right;
+    width: 50%;
+    color: #5b5e62;
+    letter-spacing: 2px;
+}
+i.icon{
+    box-shadow: 5px 5px 5px #c4d6f3;
+    padding: 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.icon-area i.icon:hover{
+    background-color: #ff0174;
+    color: aliceblue;
+    border-radius: 10px;
+    transform: translate(0, -3px);
+    transition: all 1s linear;
+}
+.img-area{
+    float: right;
+    width: 35%;
+    background-color: #e7ecef;
+    box-shadow: 2px 20px 10px #c4d6f3;
+    border-radius: 10px;
+    margin-top: 90px;
+}
+.img-area img{
+    width: 450px;
+    height: auto;
+    margin-top: -50px;
+}
