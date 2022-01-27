@@ -13,6 +13,7 @@ body{
 }
 header{
     background-color: #ecf0f3;
+    height: 115px;
 }
 .logo{
     float: left;
@@ -21,7 +22,6 @@ header{
 }
 .meanu-area{
     float: right;
-    width: 71%;
     padding: 40px 0;
 }
 .meanu-area ul li{
@@ -47,7 +47,7 @@ header{
     color: #5a696b;
 }
 .meanu-area ul li.last{
-    box-shadow: 1px 5px 10px #c6d6f0;
+    box-shadow: 0 0 10px #c6d6f0;
     padding: 15px;
     margin: 0 0 0 15px;
     border-radius: 10px;
@@ -63,8 +63,14 @@ header{
     transition: all 1s linear;
     
 }
-.meanu-area ul li.last a:hover{
+.meanu-area li.last:hover a{
     color: #fff;
+}
+.contant{
+    height: 700px;
+    border-bottom: 1px solid #0000002f;
+    margin-bottom: 30px;
+    padding-bottom: 80px;
 }
 .text-area{
     float: left;
@@ -131,9 +137,100 @@ i.icon{
     box-shadow: 2px 20px 10px #c4d6f3;
     border-radius: 10px;
     margin-top: 90px;
+    text-align: center;
 }
 .img-area img{
     width: 450px;
     height: auto;
     margin-top: -50px;
+}
+.features{
+    background-color: #ecf0f3;
+    height: 750px;
+    border-bottom: 1px solid #0000002f;
+    margin-bottom: 30px;
+    padding-bottom: 80px;
+}
+.features h5{
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    color: #f72264;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 16px;
+}
+.features h2{
+    letter-spacing: 2px;
+    font-size: 50px;
+    color: #3c3e41;
+    text-transform: capitalize;
+}
+.features .box-area{
+    background-color: #f4f6f7;
+    width: 24%;
+    float: left;
+    padding: 50px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #c6d6f0;
+    transition: all 1s linear;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+.features .box-area:hover{
+    box-shadow: 0 0 10px #c6d6f0;
+    background-color: #ff014f;
+    color: #fff;
+    transition: all 2s linear;
+
+}
+.features .box-area:hover i{
+    color: #fff;
+}
+.box-contant:hover{
+    transform: translate(0, -3px);
+    transition: all .5s linear;
+}
+.features .box-area:hover p{
+    color: #fff;
+}
+.features .box-area h4{
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.features .box-area p{
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #5b5e62;
+}
+.box-area h6 i{
+    font-size: 40px;
+    color: #ff0174;
+}
+.features .box-area h6,.features .box-area h4{
+    margin-bottom: 15px;
+}
+.protfolio{
+    height: 700px;
+}
+.protfolio-item{
+    background-color: #f4f6f7;
+    width: 24%;
+    float: left;
+    padding: 50px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #c6d6f0;
+    transition: all 1s linear;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+
+}
+.protfolio-item img{
+    width: 300px;
+    height: auto;
+    transform: scale(.8);
+    border-radius: 10px;
 }
