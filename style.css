@@ -7,6 +7,9 @@ body{
     background-color: #ecf0f3;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.clear{
+    clear: both;
+}
 .container{
     width: 90%;
     margin: 0 auto;
@@ -213,13 +216,27 @@ i.icon{
     margin-bottom: 15px;
 }
 .protfolio{
-    height: 700px;
+    height: 1030px;
+    text-align: center;
+    padding-top: 50px;
+    border-bottom: 1px #0000002f solid;
+}
+.protfolio h5{
+    color: #ff0174;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+.protfolio h2{
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-top: 20px;
+    font-size: 50px;
+    color: #3c3e41;
 }
 .protfolio-item{
     background-color: #f4f6f7;
-    width: 24%;
+    width: 31%;
     float: left;
-    padding: 50px 40px;
     border-radius: 10px;
     box-shadow: 0 0 10px #c6d6f0;
     transition: all 1s linear;
@@ -231,6 +248,46 @@ i.icon{
 .protfolio-item img{
     width: 300px;
     height: auto;
-    transform: scale(.8);
+    transform: scale(1);
     border-radius: 10px;
+    margin: 20px;
+}
+.protfolio-item img:hover{
+    transform: scale(1.1);
+    transition: all 1s linear;
+}
+.protfolio-item .float h5{
+    float: left;
+    padding: 0 20px;
+}
+.protfolio-item .float p{
+    float: right;
+    padding: 0 20px;
+    color: #77797b;
+}
+
+.protfolio-item h2{
+    padding: 0 20px 20px 20px;
+    float: left;
+    font-size: 22px;
+    text-align: left;
+    letter-spacing: normal;
+}
+.my-resume{
+    height: 1030px;
+    text-align: center;
+    padding-top: 50px;
+    border-bottom: 1px #0000002f solid;
+}
+.my-resume h5{
+    color: #ff0174;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+.my-resume h2{
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-top: 20px;
+    font-size: 50px;
+    color: #3c3e41;
 }
