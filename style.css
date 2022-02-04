@@ -243,16 +243,21 @@ i.icon{
     margin-right: 30px;
     margin-bottom: 30px;
     margin-top: 50px;
-    overflow: hidden;
-    transform: scale(1);
-    transition: all 1s ease-in-out;
 
 }
-.protfolio-item img{
+.protfolio-img{
     width: 300px;
-    height: auto;
+    height: 220px;
+    overflow: hidden;
+    padding: 40px;
     border-radius: 10px;
-    margin: 20px;
+    transform: scale(1);
+}
+.protfolio-img img{
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+    transition: all .3s ease-in-out;
 }
 .protfolio-item img:hover{
     transform: scale(1.1);
@@ -372,7 +377,7 @@ hr{
     background-color: #e90a33;
     transition: all .3s linear;
 }
-.edu-sec:hover::before{
+.edu-part:hover::before{
     background-color: #ff0174;
     transition: all .3s linear;
 }
@@ -513,25 +518,27 @@ hr:hover{
 }
 .edu-sec{
     border-left: 5px solid #d9dee2;
+}
+.edu-part{
     position: relative;
 }
-.edu-sec::after{
+.edu-part::after{
     content: "";
     position: absolute;
     width: 35px;
     height: 3px;
     background-color: #d9dee2;
     top: 10.5%;
-    left: 0.7%;
+    left: -6.3%;
 }
-.edu-sec::before{
+.edu-part::before{
     content: "";
     position: absolute;
     width: 10px;
     height: 10px;
     background-color: #fff;
-    top: 9.5%;
-    left: -2.5%;
+    top: 8%;
+    left: -10%;
     border-radius: 100%;
     border: 5px solid #d9dee2;
 }
@@ -925,4 +932,22 @@ hr:hover{
     color: #3c3e41;
     font-weight: 600;
     margin-top: 10px;
+}
+.contact h5{
+    color: #ff0174;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 500; 
+    text-align: center;
+    margin-top: 80px;
+}
+.contact h2{
+    color: #3c3e41;
+    margin-top: 10px;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 56px;
+}
+.contact-1{
+    float: left;
 }
